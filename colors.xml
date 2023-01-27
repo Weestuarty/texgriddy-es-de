@@ -1,0 +1,216 @@
+<theme>
+    <colorScheme name="gold">
+        <variables>
+            <colorSchemeName>gold</colorSchemeName>
+            <!-- Both system and gamelist views -->
+            <backgroundColor>111111</backgroundColor>
+            <backgroundMixColor>222200</backgroundMixColor>
+            <syslogoColor>664400</syslogoColor>
+            <textlogoColor>111111</textlogoColor>
+            <textlogoColorEnd>222200</textlogoColorEnd>
+          
+            <textColor>DDAA00</textColor>
+            <metaTextColor>DDAA00</metaTextColor>
+            <boxColor>DDAA00</boxColor>
+            <headerColor>DDAA00</headerColor>
+            <gamelogoColor>DDAA00</gamelogoColor>
+            <gamelogoEndColor>886600</gamelogoEndColor>
+            <helpColor>AA8800</helpColor>
+
+            <gridColor>DDAA00</gridColor>
+            <selectedColor>DDAA00</selectedColor>
+            <selectedTextColor>DDAA00</selectedTextColor>
+
+            <outlineColor1>DDAA00</outlineColor1>
+            <outlineColor2>886600</outlineColor2>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="blue">
+        <variables>
+            <colorSchemeName>blue</colorSchemeName>
+            <!-- Both system and gamelist views -->
+            <backgroundColor>002f63</backgroundColor>
+            <backgroundMixColor>090c9b</backgroundMixColor>
+            <syslogoColor>090c9b</syslogoColor>
+            <textlogoColor>090c9b</textlogoColor>
+            <textlogoColorEnd>090c9b</textlogoColorEnd>
+          
+            <textColor>96b7EE</textColor>
+            <metaTextColor>96b7ee</metaTextColor>
+            <boxColor>b4c5e4</boxColor>
+            <headerColor>96b7ee</headerColor>
+            <gamelogoColor>96b7ee</gamelogoColor>
+            <gamelogoEndColor>b2d2ff</gamelogoEndColor>
+            <helpColor>b4c5e4</helpColor>
+
+            <gridColor>3066be</gridColor>
+            <selectedColor>3066be</selectedColor>
+            <selectedTextColor>96b7EE</selectedTextColor>
+
+            <outlineColor1>96b7ee</outlineColor1>
+            <outlineColor2>b2d2ff</outlineColor2>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="grey">
+        <variables>
+            <colorSchemeName>grey</colorSchemeName>
+            <!-- Both system and gamelist views -->
+            <backgroundColor>000000</backgroundColor>
+            <backgroundMixColor>555555</backgroundMixColor>
+            <syslogoColor>FFFFFF</syslogoColor>
+            <textlogoColor>111111</textlogoColor>
+            <textlogoColorEnd>555555</textlogoColorEnd>
+          
+            <textColor>FFFFFF</textColor>
+            <metaTextColor>FFFFFF</metaTextColor>
+            <boxColor>999999</boxColor>
+            <headerColor>FFFFFF</headerColor>
+            <gamelogoColor>FFFFFF</gamelogoColor>
+            <gamelogoEndColor>999999</gamelogoEndColor>
+            <helpColor>B0B0B0</helpColor>
+
+            <gridColor>C0C0C0</gridColor>
+            <selectedColor>909090</selectedColor>
+            <selectedTextColor>FFFFFF</selectedTextColor>
+
+            <outlineColor1>FFFFFF</outlineColor1>
+            <outlineColor2>999999</outlineColor2>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="retro">
+        <variables>
+            <colorSchemeName>retro</colorSchemeName>
+            <!-- Both system and gamelist views -->
+            <backgroundColor>D3C09F</backgroundColor>
+            <backgroundMixColor>d3c09f</backgroundMixColor>
+            <syslogoColor>d3c09f</syslogoColor>
+            <textlogoColor>d3c09f</textlogoColor>
+            <textlogoColorEnd>d3c09f</textlogoColorEnd>
+          
+            <textColor>5E3427</textColor>
+            <metaTextColor>5E3427</metaTextColor>
+            <boxColor>D46432</boxColor>
+            <headerColor>5E3427</headerColor>
+            <gamelogoColor>CD541D</gamelogoColor>
+            <gamelogoEndColor>D67a2B</gamelogoEndColor>
+            <helpColor>5E3427</helpColor>
+
+            <gridColor>D04f2c</gridColor>
+            <selectedColor>5E3427</selectedColor>
+            <selectedTextColor>5e3427</selectedTextColor>
+
+            <outlineColor1>D04F2C</outlineColor1>
+            <outlineColor2>D6742B</outlineColor2>
+        </variables>
+    </colorScheme>
+    <colorScheme name="classy">
+        <variables>
+            <colorSchemeName>classy</colorSchemeName>
+            <!-- Both system and gamelist views -->
+            <backgroundColor>561420</backgroundColor>
+            <backgroundMixColor>821122</backgroundMixColor>
+            <syslogoColor>821122</syslogoColor>
+            <textlogoColor>821122</textlogoColor>
+            <textlogoColorEnd>821122</textlogoColorEnd>
+          
+            <textColor>c59a6f</textColor>
+            <metaTextColor>c59a6f</metaTextColor>
+            <boxColor>C59A6F</boxColor>
+            <headerColor>C59A6f</headerColor>
+            <gamelogoColor>C59A6F</gamelogoColor>
+            <gamelogoEndColor>956a3f</gamelogoEndColor>
+            <helpColor>956a3f</helpColor>
+
+            <gridColor>a57a4f</gridColor>
+            <selectedColor>c59a6f</selectedColor>
+            <selectedTextColor>c59a6f</selectedTextColor>
+
+            <outlineColor1>C59a6f</outlineColor1>
+            <outlineColor2>C59a6f</outlineColor2>
+        </variables>
+    </colorScheme>
+    <colorScheme name="chill">
+        <variables>
+            <colorSchemeName>chill</colorSchemeName>
+            <!-- Both system and gamelist views -->
+            <backgroundColor>47697E</backgroundColor>
+            <backgroundMixColor>688B9A</backgroundMixColor>
+            <syslogoColor>FCF1D1</syslogoColor>
+            <textlogoColor>688B9A</textlogoColor>
+            <textlogoColorEnd>688B9A</textlogoColorEnd>
+          
+            <textColor>FCF1D1</textColor>
+            <metaTextColor>FCF1d1</metaTextColor>
+            <boxColor>a3c586</boxColor>
+            <headerColor>a3c586</headerColor>
+            <gamelogoColor>a3c586</gamelogoColor>
+            <gamelogoEndColor>a3c586</gamelogoEndColor>
+            <helpColor>fcf1d1</helpColor>
+
+            <gridColor>a3C586</gridColor>
+            <selectedColor>a3c586</selectedColor>
+            <selectedTextColor>fcf1d1</selectedTextColor>
+
+            <outlineColor1>a3c586</outlineColor1>
+            <outlineColor2>a3c586</outlineColor2>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="purplerain">
+        <variables>
+            <colorSchemeName>purplerain</colorSchemeName>
+            <!-- Both system and gamelist views -->
+            <backgroundColor>421c52</backgroundColor>
+            <backgroundMixColor>5d4157</backgroundMixColor>
+            <syslogoColor>732c7b</syslogoColor>
+            <textlogoColor>421c52</textlogoColor>
+            <textlogoColorEnd>5d4157</textlogoColorEnd>
+          
+            <textColor>bdaec6</textColor>
+            <metaTextColor>bdaec6</metaTextColor>
+            <boxColor>bdaec6</boxColor>
+            <headerColor>bdaec6</headerColor>
+            <gamelogoColor>bdaec6</gamelogoColor>
+            <gamelogoEndColor>bdaec6</gamelogoEndColor>
+            <helpColor>bdaec6</helpColor>
+
+            <gridColor>9c8aa5</gridColor>
+            <selectedColor>9c8aa5</selectedColor>
+            <selectedTextColor>bdaec6</selectedTextColor>
+
+            <outlineColor1>9c8aa5</outlineColor1>
+            <outlineColor2>bdaec6</outlineColor2>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="primary">
+        <variables>
+            <colorSchemeName>primary</colorSchemeName>
+            <!-- Both system and gamelist views -->
+            <backgroundColor>111111</backgroundColor>
+            <backgroundMixColor>111111</backgroundMixColor>
+            <syslogoColor>ff0000</syslogoColor>
+            <textlogoColor>111111</textlogoColor>
+            <textlogoColorEnd>111111</textlogoColorEnd>
+          
+            <textColor>feeb51</textColor>
+            <metaTextColor>feeb51</metaTextColor>
+            <boxColor>ff0000</boxColor>
+            <headerColor>feeb51</headerColor>
+            <gamelogoColor>feeb51</gamelogoColor>
+            <gamelogoEndColor>feeb51</gamelogoEndColor>
+            <helpColor>ff0000</helpColor>
+
+            <gridColor>feeb51</gridColor>
+            <selectedColor>feeb51</selectedColor>
+            <selectedTextColor>feeb51</selectedTextColor>
+
+            <outlineColor1>ff0000</outlineColor1>
+            <outlineColor2>0000FF</outlineColor2>
+
+        </variables>
+    </colorScheme>
+</theme>

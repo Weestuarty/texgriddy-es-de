@@ -1,0 +1,272 @@
+<theme>
+    <variant name="withVideos, withoutVideos">
+    <view name="system">
+    <text name="number">
+        <pos>0.805 0.42</pos>
+        <size>0 0.05</size>
+        <origin>1 .5</origin>
+        <fontSize>0.03</fontSize>
+        
+    </text>
+    <text name="game_counter">
+        <pos>0.81 0.42</pos>
+        <size>0.2 0.05</size>
+        <origin>0 0.5</origin>
+        <fontSize>0.03</fontSize>
+    </text>
+    </view>
+    <view name="gamelist">
+    <image name="logo">
+        <pos>0.16 0.0925</pos>
+        <maxSize>0.15 0.07</maxSize>
+        <origin>0.5 0.5</origin>
+    </image> 
+    <image name="handheld">
+        <pos>0.06 0.105</pos>
+        <maxSize>0.04 0.09</maxSize>
+        <origin>0.5 0.5</origin>
+    </image> 
+    <image name="backtile">
+        <pos>0.035 0.048</pos>
+        <size>0.2 0.12</size>
+        <zIndex>5</zIndex>
+    </image>
+    <image name="backtile2">
+        <pos>0.0425 0.055</pos>
+        <size>0.04 0.105</size>
+        <zIndex>5</zIndex>
+    </image>
+    <text name="title">
+        <pos>0.2575 0.0625</pos>
+        <size>0.2 0.085</size>
+        <fontSize>0.035</fontSize>
+        <lineSpacing>1</lineSpacing>
+    </text> 
+    <image name="backdrop">
+        <pos>0.25 0.04</pos>
+        <size>0.215 0.48</size>
+        <zIndex>5</zIndex>
+    </image>  
+    <image name="backtdrop2">
+        <pos>0.2575 0.0625</pos>
+        <size>0.2 0.085</size>
+        <zIndex>5</zIndex>
+    </image>     
+    <image name="box">
+        <pos>0.73 0.2775</pos>
+        <maxSize>0.16 0.335</maxSize>
+        <origin>0.5 0.5</origin>
+    </image>
+    <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher,
+                md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_players">
+        <size>0.14 0.03</size>
+        <fontSize>0.025</fontSize>
+    </text>
+    <text name="md_developer, md_publisher, md_genre">
+        <size>0.14 0.03</size>
+        <fontSize>0.02</fontSize>
+    </text>
+    <text name="md_description">
+        <pos>0.035 0.17</pos>
+        <size>0.2 0.33</size>
+        <fontSize>0.027</fontSize>
+        <lineSpacing>1</lineSpacing>
+    </text>
+    <datetime name="md_releasedate, md_lastplayed">
+        <size>0.14 0.03</size>
+        <fontSize>0.02</fontSize>
+    </datetime>
+    <image name="release">
+        <pos>0.47 0.11</pos>
+        <size>0.15 0.05</size>
+    </image>
+    <datetime name="md_releasedate">
+        <pos>0.505 0.11</pos>
+        <size>0.11 0.05</size>
+        <fontSize>0.024</fontSize>
+    </datetime>
+    <image name="dev">
+        <pos>0.47 0.17</pos>
+        <size>0.15 0.06</size>
+    </image>
+    <text name="md_developer">
+        <pos>0.505 0.17</pos>
+        <size>0.11 0.06</size>
+    </text>
+    <image name="pub">
+        <pos>0.47 0.24</pos>
+        <size>0.15 0.06</size>
+    </image>
+    <text name="md_publisher">
+        <pos>0.505 0.24</pos>
+        <size>0.11 0.06</size>
+    </text>
+    <image name="genre">
+        <pos>0.47 0.31</pos>
+        <size>0.15 0.06</size>
+    </image>
+    <text name="md_genre">
+        <pos>0.505 0.31</pos>
+        <size>0.11 0.06</size>
+    </text>
+    <text name="md_lbl_players">
+        <pos>0.105 0.133</pos>
+        <fontSize>0.03</fontSize>
+    </text>
+    <text name="md_players">
+        <pos>-0.035 0.1315</pos>
+        <fontSize>0.033</fontSize>
+    </text>
+    <image name="lastplayed">
+        <pos>0.47 0.38</pos>
+        <size>0.15 0.06</size>
+    </image>
+    <datetime name="md_lastplayed">
+        <pos>0.505 0.38</pos>
+        <size>0.11 0.06</size>
+    </datetime>
+    <rating name="md_rating">
+        <pos>0.17 0.1315</pos>
+        <size>0 0.03</size>
+    </rating>
+    <badges name="altemu">
+        <visible>false</visible>
+    </badges>
+    <badges name="md_badges">
+        <pos>0.82 0.11</pos>
+        <size>0.15 0.3</size>
+        <horizontalAlignment>left</horizontalAlignment>
+        <direction>column</direction>
+        <lines>1</lines>
+        <itemsPerLine>3</itemsPerLine>
+        <slots>completed, favorite, altemulator</slots>
+    </badges>
+    <badges name="leftovers">
+        <pos>0.82 0.35</pos>
+        <size>0.15 0.07</size>
+        <horizontalAlignment>left</horizontalAlignment>
+        <direction>row</direction>
+        <lines>1</lines>
+        <itemsPerLine>4</itemsPerLine>
+        <slots>broken, kidgame, collection, folder</slots>
+    </badges>
+    <badges name="md_badges4">
+        <pos>0.041 0.0635</pos>
+        <size>0.04 0.09</size>
+        <horizontalAlignment>left</horizontalAlignment>
+        <direction>row</direction>
+        <lines>1</lines>
+        <itemsPerLine>1</itemsPerLine>
+        <slots>controller</slots>
+        <controllerPos>0.5 0.5</controllerPos>
+        <controllerSize>1.25</controllerSize>
+    </badges>  
+</view>
+    </variant>
+
+<variant name="withVideos">
+    <view name="gamelist">
+        <video name="md_video">
+            <pos>0.3575 0.325</pos>
+            <maxSize>0.2 0.345</maxSize>
+            <origin>0.5 0.5</origin>
+        </video>
+    </view>
+</variant>
+
+<variant name="withoutVideos">
+    <view name="gamelist">
+        <image name="md_image">
+            <pos>0.3575 0.325</pos>
+            <maxSize>0.27 0.345</maxSize>
+            <origin>0.5 0.5</origin>
+        </image>
+    </view>
+</variant>
+
+<variant name="textwithVideos, textwithoutVideos">
+    <view name="gamelist">
+        <badges name="leftovers">
+            <pos>0.46 0.28</pos>
+            <size>0.05 0.4</size>
+            <horizontalAlignment>right</horizontalAlignment>
+            <direction>column</direction>
+            <lines>1</lines>
+            <itemsPerLine>4</itemsPerLine>
+            <slots>broken, kidgame, collection, folder</slots>
+            <customBadgeIcon badge="folder">./core/badge/${colorSchemeName}/folder.png</customBadgeIcon>
+            <customBadgeIcon badge="broken">./core/badge/${colorSchemeName}/broken.png</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./core/badge/${colorSchemeName}/kid.png</customBadgeIcon>
+            <customBadgeIcon badge="collection">./core/badge/${colorSchemeName}/collection.png</customBadgeIcon>
+            
+            <itemMargin>0.000001 0.000001</itemMargin>
+        </badges>
+        <image name="box">
+            <pos>0.605 0.37</pos>
+            <maxSize>0.15 0.38</maxSize>
+            <origin>0.5 0.5</origin>
+            <imageType>cover</imageType>
+            <interpolation>nearest</interpolation>
+            <scrollFadeIn>true</scrollFadeIn>
+        </image>
+        <text name="title">
+            <pos>0.525 0.0625</pos>
+            <size>0.44 0.09</size>
+            <fontPath>${secondaryFont}</fontPath>
+            <color>${backgroundColor}</color>
+            <fontSize>0.045</fontSize>
+            <metadata>name</metadata>
+            <horizontalAlignment>center</horizontalAlignment>
+            <lineSpacing>1</lineSpacing>
+        </text>
+        <text name="md_description">
+            <size>0.45 0.335</size>
+            <fontSize>0.032</fontSize>
+            </text>
+            <textlist name="gamelist_grid">
+                <size>0.315 0.78</size>
+                <fontSize>0.032</fontSize>
+            </textlist>
+            <helpsystem name="help">
+                <pos>0.96 0.93</pos>
+			</helpsystem>
+            <text name="md_lbl_players">
+                <pos>0.122 0.133</pos>
+            </text>
+            <text name="md_players">
+                <pos>-0.02 0.1315</pos>
+            </text>
+            <rating name="md_rating">
+                <pos>0.275 0.1315</pos>
+            </rating>
+            <badges name="md_badges4">
+                <pos>0.042 0.0625</pos>
+                <size>0.1 0.09</size>
+                <horizontalAlignment>left</horizontalAlignment>
+                <direction>row</direction>
+                <lines>1</lines>
+                <itemsPerLine>1</itemsPerLine>
+                <slots>controller</slots>
+                <customBadgeIcon badge="controller">./core/badge/${colorSchemeName}/controller.svg</customBadgeIcon>   
+                <controllerPos>0.5 0.5</controllerPos>
+                <controllerSize>1.25</controllerSize>
+            </badges> 
+    </view>
+</variant>
+
+<variant name="textwithVideos">
+    <view name="gamelist">
+        <video name="md_video">
+            <pos>0.815 0.37</pos>
+        </video>
+    </view>
+</variant>
+
+<variant name="textwithoutVideos">
+    <view name="gamelist">
+        <image name="md_image">
+            <pos>0.815 0.37</pos>
+        </image>
+    </view>
+</variant>
+</theme>

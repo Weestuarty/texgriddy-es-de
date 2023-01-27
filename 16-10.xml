@@ -1,0 +1,118 @@
+<theme>
+    <variant name="withVideos,withoutVideos">
+    <view name="system">
+        <text name="number">
+            <pos>0.81 0.42</pos>
+            <size>0 0.05</size>
+            <origin>1 .5</origin>
+            <fontSize>0.03</fontSize>
+        </text>
+        <text name="game_counter">
+            <pos>0.815 0.42</pos>
+            <size>0.2 0.05</size>
+            <origin>0 0.5</origin>
+            <fontSize>0.03</fontSize>
+        </text>
+    </view>
+   
+
+    <view name="gamelist">
+        <text name="md_developer, md_publisher, md_genre">
+            <fontSize>0.019</fontSize>
+        </text>
+        <text name="md_developer">
+            <pos>0.6825 0.11</pos>
+            <size>0.115 0.06</size>
+        </text>
+        <text name="md_publisher">
+            <pos>0.6825 0.18</pos>
+            <size>0.115 0.06</size>
+        </text>
+        <text name="md_genre">
+            <pos>0.6825 0.25</pos>
+            <size>0.115 0.06</size>
+        </text>
+        <image name="handheld">
+            <pos>0.07 0.105</pos>
+            <maxSize>0.06 0.09</maxSize>
+            <origin>0.5 0.5</origin>
+        </image> 
+        <text name="title">
+            <pos>0.36 0.0625</pos>
+            <size>0.26 0.115</size>
+            <fontSize>0.035</fontSize>
+        </text>  
+        <image name="box">
+            <pos>0.89 0.275</pos>
+            <maxSize>0.16 0.335</maxSize>
+            <origin>0.5 0.5</origin>
+        </image>
+        <badges name="md_badges4">
+            <pos>0.046 0.0635</pos>
+            <size>0.06 0.085</size>
+            <horizontalAlignment>left</horizontalAlignment>
+            <direction>row</direction>
+            <lines>1</lines>
+            <itemsPerLine>1</itemsPerLine>
+            <slots>controller</slots>
+            <controllerPos>0.5 0.5</controllerPos>
+            <controllerSize>1.25</controllerSize>
+        </badges> 
+        <image name="backtdrop2">
+            <pos>0.36 0.0625</pos>
+            <size>0.259 0.115</size>
+        </image> 
+    
+        <text name="md_description">
+            <fontSize>0.025</fontSize>
+            <lineSpacing>1</lineSpacing>
+        </text>
+        <badges name="altemu">
+            <pos>0.815 0.4475</pos>
+            <size>0.15 0.05</size>
+            <horizontalAlignment>left</horizontalAlignment>
+            <direction>row</direction>
+            <lines>1</lines>
+            <itemsPerLine>1</itemsPerLine>
+            <slots>altemulator</slots>
+        </badges>
+        </view>
+        </variant>
+
+        <variant name="withVideos">
+            <view name="gamelist">
+                <video name="md_video">
+                    <pos>0.49 0.34</pos>
+                    <maxSize>0.26 0.315</maxSize>
+                    <origin>0.5 0.5</origin>
+                </video>
+            </view>
+        </variant>
+    
+        <variant name="withoutVideos">
+            <view name="gamelist">
+                <image name="md_image">
+                    <pos>0.49 0.34</pos>
+                    <maxSize>0.26 0.315</maxSize>
+                    <origin>0.5 0.5</origin>
+                </image>
+            </view>
+        </variant>
+        <variant name="textwithVideos, textwithoutVideos">
+            <view name="gamelist">
+                <helpsystem name="help">
+                    <pos>.97 0.94</pos>
+                <fontSize>0.019</fontSize>
+            </helpsystem>
+            <textlist name="gamelist_grid">
+                <fontSize>0.024</fontSize>
+                </textlist>
+            <text name="md_developer, md_publisher, md_genre">
+                <fontSize>0.017</fontSize>
+            </text>
+            <text name="md_description">
+                <fontSize>0.025</fontSize>
+                </text>
+            </view>
+        </variant>
+</theme>

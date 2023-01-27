@@ -1,0 +1,25 @@
+<theme>
+    <variant name="textwithVideos">
+            <view name="system">
+                <carousel name="system_carousel">
+                    <pos>0.02 0.2</pos>
+                    <size>0.96 .2</size>
+                    <staticImage>./core/systems/${system.theme}.svg</staticImage>
+                    <imageColor>${syslogoColor}</imageColor>
+                    <color>${outlineColor1}</color>
+                    <colorEnd>${outlineColor2}</colorEnd>
+                    <itemSize>0.18 0.18</itemSize>
+                    <itemScale>1.3</itemScale>
+                    <maxItemCount>3</maxItemCount>
+                    <unfocusedItemOpacity>.5</unfocusedItemOpacity>
+                    <text>${system.fullName}</text>
+                    <textColor>${textColor}</textColor>
+                    <fontPath>${primaryFont}</fontPath>
+                    <fontSize>0.03</fontSize>
+                    <letterCase>uppercase</letterCase>
+                    <lineSpacing>0.8</lineSpacing>
+                    <zIndex>29</zIndex>
+                </carousel>
+            </view>  
+            </variant>      
+</theme>

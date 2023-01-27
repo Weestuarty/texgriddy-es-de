@@ -1,0 +1,83 @@
+<!--
+    Theme capabilities for slate-DE
+-->
+
+<themeCapabilities>
+    <aspectRatio>16:9</aspectRatio>
+    <aspectRatio>4:3</aspectRatio>
+    <aspectRatio>16:10</aspectRatio>
+    <aspectRatio>21:9</aspectRatio>
+
+    <colorScheme name="grey">
+        <label>Greyscale</label>
+    </colorScheme>
+
+    <colorScheme name="blue">
+        <label>Blue</label>
+    </colorScheme>
+
+    <colorScheme name="gold">
+        <label>Gold</label>
+    </colorScheme>
+
+    <colorScheme name="retro">
+        <label>Retro</label>
+    </colorScheme>
+    
+    <colorScheme name="classy">
+        <label>Stay Classy</label>
+    </colorScheme>
+
+    <colorScheme name="chill">
+        <label>Chilled</label>
+    </colorScheme>
+
+    <colorScheme name="purplerain">
+        <label>Purple Rain</label>
+    </colorScheme>
+
+    <colorScheme name="primary">
+        <label>Primary</label>
+    </colorScheme>
+
+    <variant name="withVideos">
+        <label>Grid with videos</label>
+        <selectable>true</selectable>
+        <override>
+            <trigger>no_game_media</trigger>
+            <useVariant>noMedia</useVariant>
+        </override>
+    </variant>
+
+    <variant name="withoutVideos">
+        <label>Grid without videos</label>
+        <selectable>true</selectable>
+        <override>
+            <trigger>no_game_media</trigger>
+            <useVariant>noMedia</useVariant>
+        </override>
+    </variant>
+
+    <variant name="textwithVideos">
+        <label>Textlist with videos</label>
+        <selectable>true</selectable>
+        <override>
+            <trigger>no_game_media</trigger>
+            <useVariant>noMedia</useVariant>
+        </override>
+    </variant>
+
+    <variant name="textwithoutVideos">
+        <label>Textlist without videos</label>
+        <selectable>true</selectable>
+        <override>
+            <trigger>no_game_media</trigger>
+            <useVariant>noMedia</useVariant>
+        </override>
+    </variant>
+
+    <variant name="noMedia">
+        <label>No game media</label>
+        <selectable>false</selectable>
+    </variant>
+</themeCapabilities>
