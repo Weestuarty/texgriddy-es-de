@@ -780,14 +780,14 @@
             <size>0.15 0.06</size>
             <path>./core/images/last.png</path>
             <color>${boxColor}</color>
-            <defaultValue>:space:</defaultValue>
         </image>
         <datetime name="md_lastplayed">
             <pos>0.685 0.32</pos>
             <size>0.11 0.06</size>
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
-            <metadata>lastplayed</metadata>
+            <metadata>lastplayed</metadata>            
+            <defaultValue>:space:</defaultValue>
         </datetime>
         <rating name="md_rating">
             <pos>0.24 0.1315</pos>
