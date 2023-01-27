@@ -294,6 +294,7 @@
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
             <metadata>developer</metadata>
+            <defaultValue>:space:</defaultValue>
         </text>
         <image name="pub">
             <pos>0.355 0.75</pos>
@@ -307,6 +308,7 @@
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
             <metadata>publisher</metadata>
+            <defaultValue>:space:</defaultValue>
         </text>
         <image name="genre">
             <pos>0.355 0.82</pos>
@@ -320,6 +322,7 @@
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
             <metadata>genre</metadata>
+            <defaultValue>:space:</defaultValue>
         </text>
         <text name="md_lbl_players">
             <pos>0.132 0.133</pos>
@@ -331,6 +334,7 @@
             <pos>-0.01 0.1315</pos>
             <horizontalAlignment>right</horizontalAlignment>
             <metadata>players</metadata>
+            <defaultValue>1</defaultValue>
             <fontSize>0.033</fontSize>
         </text>
         <image name="lastplayed">
@@ -725,6 +729,7 @@
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
             <metadata>developer</metadata>
+            <defaultValue>:space:</defaultValue>
         </text>
         <image name="pub">
             <pos>0.65 0.18</pos>
@@ -738,6 +743,7 @@
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
             <metadata>publisher</metadata>
+            <defaultValue>:space:</defaultValue>
         </text>
         <image name="genre">
             <pos>0.65 0.25</pos>
@@ -751,6 +757,7 @@
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
             <metadata>genre</metadata>
+            <defaultValue>:space:</defaultValue>
         </text>
         <text name="md_lbl_players">
             <pos>0.132 0.133</pos>
@@ -762,6 +769,7 @@
             <pos>-0.01 0.1315</pos>
             <horizontalAlignment>right</horizontalAlignment>
             <metadata>players</metadata>
+            <defaultValue>1</defaultValue>
             <fontSize>0.033</fontSize>
         </text>
         <image name="lastplayed">
