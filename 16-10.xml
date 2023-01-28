@@ -114,6 +114,20 @@
         </variant>
         <variant name="textwithVideos, textwithoutVideos">
             <view name="gamelist">
+                <text name="md_lbl_players">
+                    <pos>0.152 0.132</pos>
+                    <text>players</text>
+                    <fontSize>0.023</fontSize>
+                    <metadataElement>true</metadataElement>
+                </text>
+                <text name="md_players">
+                    <pos>0.01 0.1315</pos>
+                    <fontSize>0.026</fontSize>
+                </text>
+                <rating name="md_rating">
+                    <pos>0.23 0.1315</pos>
+                    <size>0 0.025</size>
+                </rating>
                 <helpsystem name="help">
                     <pos>.975 0.94</pos>
                 <fontSize>0.016</fontSize>
