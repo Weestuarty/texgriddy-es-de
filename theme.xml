@@ -476,7 +476,8 @@
                 <selectorColor>${selectedColor}</selectorColor>
                 <selectorRelativeScale>1</selectorRelativeScale>
                 <text>${system.fullName}</text>
-                <textColor>${textColor}</textColor>
+                <textColor>${syslogoColor}</textColor>
+                <textRelativeScale>0.65</textRelativeScale>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.03</fontSize>
                 <letterCase>uppercase</letterCase>
@@ -539,6 +540,12 @@
                 <selectorImage>./core/images/select.svg</selectorImage>
                 <selectorColor>${selectedColor}</selectorColor>
                 <selectorRelativeScale>1</selectorRelativeScale>
+                <textColor>${syslogoColor}</textColor>
+                <textRelativeScale>0.65</textRelativeScale>
+                <fontPath>${primaryFont}</fontPath>
+                <fontSize>0.03</fontSize>
+                <letterCase>uppercase</letterCase>
+                <lineSpacing>0.8</lineSpacing>
             </grid>
         </view>
 
