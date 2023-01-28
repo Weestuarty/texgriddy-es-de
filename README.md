@@ -1,6 +1,6 @@
-# Griddlemethis-DE for EmulationStation Desktop Edition
+# TexGriddy-es-de for EmulationStation Desktop Edition
 
-Griddlemethis-DE is a theme set for ES-DE that supports all systems as well as the latest application features.
+Texgriddy-es-de is a theme set for ES-DE that supports all systems as well as the latest application features.
 
 ![systems](sys.png)
 ![systemscar](sysc.png)
