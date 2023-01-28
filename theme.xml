@@ -80,12 +80,12 @@
         </view>
         <view name="gamelist">
             <helpsystem name="help">
-                <pos>0.95 0.93</pos>
+                <pos>0.977 0.94</pos>
 			    <origin>1 0</origin>
 			    <fontPath>${primaryFont}</fontPath>
                 <textColor>${helpColor}</textColor>
                 <iconColor>${helpColor}</iconColor>
-                <fontSize>0.02</fontSize>
+                <fontSize>0.018</fontSize>
             </helpsystem>
                   
             <textlist name="gamelist_grid">
