@@ -17,6 +17,7 @@
    
 
     <view name="gamelist">
+        
         <text name="md_developer, md_publisher, md_genre">
             <fontSize>0.019</fontSize>
         </text>
@@ -101,8 +102,8 @@
         <variant name="textwithVideos, textwithoutVideos">
             <view name="gamelist">
                 <helpsystem name="help">
-                    <pos>.97 0.94</pos>
-                <fontSize>0.019</fontSize>
+                    <pos>.975 0.94</pos>
+                <fontSize>0.016</fontSize>
             </helpsystem>
             <textlist name="gamelist_grid">
                 <fontSize>0.024</fontSize>
@@ -113,6 +114,17 @@
             <text name="md_description">
                 <fontSize>0.025</fontSize>
                 </text>
+                <badges name="md_badges4">
+                    <pos>0.036 0.0635</pos>
+                    <size>0.06 0.085</size>
+                    <horizontalAlignment>left</horizontalAlignment>
+                    <direction>row</direction>
+                    <lines>1</lines>
+                    <itemsPerLine>1</itemsPerLine>
+                    <slots>controller</slots>
+                    <controllerPos>0.5 0.5</controllerPos>
+                    <controllerSize>1.25</controllerSize>
+                </badges> 
             </view>
         </variant>
 </theme>
