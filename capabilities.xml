@@ -9,6 +9,12 @@
     <aspectRatio>16:10</aspectRatio>
     <aspectRatio>21:9</aspectRatio>
 
+    <suppressTransitionProfiles>
+        <entry>builtin-instant</entry>
+        <entry>builtin-slide</entry>
+        <entry>builtin-fade</entry>
+    </suppressTransitionProfiles>
+
     <colorScheme name="grey">
         <label>Greyscale</label>
     </colorScheme>
