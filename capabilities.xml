@@ -9,12 +9,6 @@
     <aspectRatio>16:10</aspectRatio>
     <aspectRatio>21:9</aspectRatio>
 
-    <suppressTransitionProfiles>
-        <entry>builtin-instant</entry>
-        <entry>builtin-slide</entry>
-        <entry>builtin-fade</entry>
-    </suppressTransitionProfiles>
-
     <colorScheme name="grey">
         <label>Greyscale</label>
     </colorScheme>
@@ -51,7 +45,7 @@
         <label>Grid with videos</label>
         <selectable>true</selectable>
         <override>
-            <trigger>no_game_media</trigger>
+            <trigger>nogamemedia</trigger>
             <useVariant>noMedia</useVariant>
         </override>
     </variant>
@@ -60,7 +54,7 @@
         <label>Grid without videos</label>
         <selectable>true</selectable>
         <override>
-            <trigger>no_game_media</trigger>
+            <trigger>nogamemedia</trigger>
             <useVariant>noMedia</useVariant>
         </override>
     </variant>
@@ -69,7 +63,7 @@
         <label>Textlist with videos</label>
         <selectable>true</selectable>
         <override>
-            <trigger>no_game_media</trigger>
+            <trigger>nogamemedia</trigger>
             <useVariant>noMedia</useVariant>
         </override>
     </variant>
@@ -78,7 +72,7 @@
         <label>Textlist without videos</label>
         <selectable>true</selectable>
         <override>
-            <trigger>no_game_media</trigger>
+            <trigger>nogamemedia</trigger>
             <useVariant>noMedia</useVariant>
         </override>
     </variant>
