@@ -45,7 +45,7 @@
         <label>Grid with videos</label>
         <selectable>true</selectable>
         <override>
-            <trigger>nogamemedia</trigger>
+            <trigger>noGameMedia</trigger>
             <useVariant>noMedia</useVariant>
         </override>
     </variant>
@@ -54,7 +54,7 @@
         <label>Grid without videos</label>
         <selectable>true</selectable>
         <override>
-            <trigger>nogamemedia</trigger>
+            <trigger>noGameMedia</trigger>
             <useVariant>noMedia</useVariant>
         </override>
     </variant>
@@ -63,7 +63,7 @@
         <label>Textlist with videos</label>
         <selectable>true</selectable>
         <override>
-            <trigger>nogamemedia</trigger>
+            <trigger>noGameMedia</trigger>
             <useVariant>noMedia</useVariant>
         </override>
     </variant>
@@ -72,7 +72,7 @@
         <label>Textlist without videos</label>
         <selectable>true</selectable>
         <override>
-            <trigger>nogamemedia</trigger>
+            <trigger>noGameMedia</trigger>
             <useVariant>noMedia</useVariant>
         </override>
     </variant>
