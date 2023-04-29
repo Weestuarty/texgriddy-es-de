@@ -1,0 +1,4 @@
+[submodule "system-metadata"]
+	path = system-metadata
+	url = https://gitlab.com/es-de/themes/system-metadata
+	branch = master
