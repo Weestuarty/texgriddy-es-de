@@ -9,12 +9,13 @@
     <include>./colors.xml</include>
     <include>./system/metadata/_default.xml</include>
     <include>./system/metadata/${system.theme}.xml</include>
-    <include>./system/logos/metacustom/${system.theme}.xml</include>
+    <include>./system/custom/metadata/${system.theme}.xml</include>
 
     <variables>
         <primaryFont>./core/fonts/berlin.ttf</primaryFont>
         <secondaryFont>./core/fonts/berlinb.ttf</secondaryFont>
         <syslogo>./system/logos/syslogo/${system.theme}.svg</syslogo>
+        <syslogocustom>./system/custom/syslogo/${system.theme}.svg</syslogocustom>
     </variables> 
 
     <aspectRatio name="4:3">
