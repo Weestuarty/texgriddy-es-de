@@ -541,42 +541,14 @@
             <color>${gridColor}</color>
             <colorEnd>${selectedColor}</colorEnd>
         </image>	     
-        <text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10">
-            <size>0.6 0.03</size>
+       <text name="info">
+            <pos>0.05 0.2</pos>
+            <size>0.6 0.35</size>
+            <text>${systemDescription}</text>
             <fontPath>${primaryFont}</fontPath>
             <fontSize>0.03</fontSize>
             <horizontalAlignment>left</horizontalAlignment>
             <color>${textColor}</color>
-        </text>
-        <text name="info1">
-            <pos>0.05 0.1</pos>
-        </text>
-        <text name="info2">
-            <pos>0.05 0.135</pos>
-        </text>
-        <text name="info3">
-            <pos>0.05 0.17</pos>
-        </text>
-        <text name="info4">
-            <pos>0.05 0.205</pos>
-        </text>
-        <text name="info5">
-            <pos>0.05 0.24</pos>
-        </text>
-        <text name="info6">
-            <pos>0.05 0.275</pos>
-        </text>
-        <text name="info7">
-            <pos>0.05 0.31</pos>
-        </text>
-        <text name="info8">
-            <pos>0.05 0.345</pos>
-        </text>
-        <text name="info9">
-            <pos>0.05 0.38</pos>
-        </text>
-        <text name="info10">
-            <pos>0.05 0.415</pos>
         </text>
     </view>
 
