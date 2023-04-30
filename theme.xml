@@ -6,10 +6,11 @@
 
 <theme>
     <include>./navigationsounds.xml</include>
-    <include>./colors.xml</include>
+    <include>./colors.xml</include>  
     <include>./system/metadata/_default.xml</include>
-    <include>./system/metadata/${system.theme}.xml</include>
+    <include>./system/custom/metadata/_default.xml</include>
     <include>./system/custom/metadata/${system.theme}.xml</include>
+    <include>./system/metadata/${system.theme}.xml</include>
 
     <variables>
         <primaryFont>./core/fonts/berlin.ttf</primaryFont>
@@ -433,6 +434,7 @@
                 <pos>0.045 0.47</pos>
                 <size>0.92 .5</size>
                 <staticImage>${syslogo}</staticImage>
+                <defaultImage>${syslogocustom}</defaultImage>
                 <imageColor>${syslogoColor}</imageColor>
                 <itemSize>0.18 0.15</itemSize>
                 <itemSpacing>0 0</itemSpacing>
@@ -565,6 +567,7 @@
             <maxSize>0.22 0.07</maxSize>
             <origin>0.5 0.5</origin>
             <path>${syslogo}</path>
+            <default>${syslogocustom}</default>
             <color>${gamelogoColor}</color>
             <colorEnd>${gamelogoEndColor}</colorEnd>
         </image> 
