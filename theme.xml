@@ -7,6 +7,7 @@
 <theme>
     <include>./navigationsounds.xml</include>
     <include>./colors.xml</include>
+    <include>./system-metadata/_default.xml</include>
     <include>./system-metadata/${system.theme}.xml</include>
 
     <variables>
