@@ -547,6 +547,7 @@
             <text>${systemDescription}</text>
             <fontPath>${primaryFont}</fontPath>
             <fontSize>0.03</fontSize>
+            <container>true</container>
             <horizontalAlignment>left</horizontalAlignment>
             <color>${textColor}</color>
         </text>
