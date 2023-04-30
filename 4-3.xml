@@ -1,7 +1,7 @@
 <theme>
 <variant name="withVideos, withoutVideos">
     <view name="system">
-        <text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10">
+        <text name="info">
             <fontSize>0.025</fontSize>
         </text>
         <text name="number">
@@ -168,7 +168,7 @@
                 <size>0.2 0.05</size>
                 <fontSize>0.025</fontSize>
             </text>
-            <text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10">
+            <text name="info">
                 <size>0.6 0.03</size>
                 <fontSize>0.025</fontSize>
             </text>
