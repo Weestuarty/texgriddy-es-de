@@ -13,7 +13,7 @@
     <variables>
         <primaryFont>./core/fonts/berlin.ttf</primaryFont>
         <secondaryFont>./core/fonts/berlinb.ttf</secondaryFont>
-        <syslogo>./system/logo/syslogo/${system.theme}.svg</syslogo>
+        <syslogo>./system/logos/syslogo/${system.theme}.svg</syslogo>
     </variables> 
 
     <aspectRatio name="4:3">
