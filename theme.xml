@@ -14,7 +14,7 @@
     <variables>
         <primaryFont>./core/fonts/berlin.ttf</primaryFont>
         <secondaryFont>./core/fonts/berlinb.ttf</secondaryFont>
-        <syslogo>./system/logos/syslogo/${system.theme}.svg</syslogo>
+        <syslogo>./system/logos/system-logo-white/${system.theme}.svg</syslogo>
         <syslogocustom>./system/custom/syslogo/${system.theme}.svg</syslogocustom>
     </variables> 
 
