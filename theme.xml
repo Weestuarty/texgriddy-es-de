@@ -7,13 +7,13 @@
 <theme>
     <include>./navigationsounds.xml</include>
     <include>./colors.xml</include>
-    <include>./system-metadata/_default.xml</include>
-    <include>./system-metadata/${system.theme}.xml</include>
+    <include>./system/metadata/_default.xml</include>
+    <include>./system/metadata/${system.theme}.xml</include>
 
     <variables>
         <primaryFont>./core/fonts/berlin.ttf</primaryFont>
         <secondaryFont>./core/fonts/berlinb.ttf</secondaryFont>
-        <syslogo>./syslogo/syslogo/${system.theme}.svg</syslogo>
+        <syslogo>./system/logo/syslogo/${system.theme}.svg</syslogo>
     </variables> 
 
     <aspectRatio name="4:3">
