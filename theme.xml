@@ -15,7 +15,7 @@
         <primaryFont>./core/fonts/berlin.ttf</primaryFont>
         <secondaryFont>./core/fonts/berlinb.ttf</secondaryFont>
         <syslogo>./system/logos/system-logo-white/${system.theme}.svg</syslogo>
-        <syslogocustom>./system/custom/syslogo/${system.theme}.svg</syslogocustom>
+        <syslogocustom>./system/custom/logo/${system.theme}.svg</syslogocustom>
     </variables> 
 
     <aspectRatio name="4:3">
