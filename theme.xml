@@ -362,7 +362,7 @@
             <horizontalAlignment>right</horizontalAlignment>
             <direction>column</direction>
             <lines>1</lines>
-            <itemsPerLine>4</itemsPerLine>
+            <itemsPerLine>5</itemsPerLine>
             <slots>broken, kidgame, collection, folder,manual</slots>
             <customBadgeIcon badge="folder">./core/badge/folder.png</customBadgeIcon>
             <customBadgeIcon badge="broken">./core/badge/broken.png</customBadgeIcon>
@@ -787,7 +787,7 @@
             <horizontalAlignment>right</horizontalAlignment>
             <direction>row</direction>
             <lines>1</lines>
-            <itemsPerLine>4</itemsPerLine>
+            <itemsPerLine>5</itemsPerLine>
             <slots>broken, kidgame, collection, folder,manual</slots>
             <customBadgeIcon badge="folder">./core/badge/folder.png</customBadgeIcon>
             <customBadgeIcon badge="broken">./core/badge/broken.png</customBadgeIcon>
