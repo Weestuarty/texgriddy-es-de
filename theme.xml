@@ -349,10 +349,11 @@
             <direction>column</direction>
             <lines>1</lines>
             <itemsPerLine>3</itemsPerLine>
-            <customBadgeIcon badge="altemulator">./core/badge/${colorSchemeName}/altemulator.png</customBadgeIcon>
-            <customBadgeIcon badge="favorite">./core/badge/${colorSchemeName}/fave.png</customBadgeIcon>
-            <customBadgeIcon badge="completed">./core/badge/${colorSchemeName}/complete.png</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./core/badge/altemulator.png</customBadgeIcon>
+            <customBadgeIcon badge="favorite">./core/badge/fave.png</customBadgeIcon>
+            <customBadgeIcon badge="completed">./core/badge/complete.png</customBadgeIcon>
             <slots>completed, favorite, altemulator</slots>
+            <badgeIconColor>${boxColor}</badgeIconColor>
         </badges>
 
         <badges name="leftovers">
@@ -362,12 +363,14 @@
             <direction>column</direction>
             <lines>1</lines>
             <itemsPerLine>4</itemsPerLine>
-            <slots>broken, kidgame, collection, folder</slots>
-            <customBadgeIcon badge="folder">./core/badge/${colorSchemeName}/folder.png</customBadgeIcon>
-            <customBadgeIcon badge="broken">./core/badge/${colorSchemeName}/broken.png</customBadgeIcon>
-            <customBadgeIcon badge="kidgame">./core/badge/${colorSchemeName}/kid.png</customBadgeIcon>
-            <customBadgeIcon badge="collection">./core/badge/${colorSchemeName}/collection.png</customBadgeIcon>
+            <slots>broken, kidgame, collection, folder,manual</slots>
+            <customBadgeIcon badge="folder">./core/badge/folder.png</customBadgeIcon>
+            <customBadgeIcon badge="broken">./core/badge/broken.png</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./core/badge/kid.png</customBadgeIcon>
+            <customBadgeIcon badge="collection">./core/badge/collection.png</customBadgeIcon>
             
+            <customBadgeIcon badge="manual">./core/badge/manual.png</customBadgeIcon>
+            <badgeIconColor>${boxColor}</badgeIconColor>
             <itemMargin>0.000001 0.000001</itemMargin>
         </badges>
         <badges name="md_badges4">
@@ -378,19 +381,20 @@
             <lines>1</lines>
             <itemsPerLine>1</itemsPerLine>
             <slots>controller</slots>
-            <customBadgeIcon badge="controller">./core/badge/${colorSchemeName}/controller.svg</customBadgeIcon>   
+            <customBadgeIcon badge="controller">./core/badge/controller.svg</customBadgeIcon>   
             <controllerPos>0.5 0.5</controllerPos>
             <controllerSize>1.25</controllerSize>
+            <badgeIconColor>${boxColor}</badgeIconColor>
         </badges> 
         <badges name="all">
-            <customBadgeIcon badge="folder">./core/badge/${colorSchemeName}/folder.png</customBadgeIcon>
-            <customBadgeIcon badge="broken">./core/badge/${colorSchemeName}/broken.png</customBadgeIcon>
-            <customBadgeIcon badge="kidgame">./core/badge/${colorSchemeName}/kid.png</customBadgeIcon>
-            <customBadgeIcon badge="collection">./core/badge/${colorSchemeName}/collection.png</customBadgeIcon>
-            <customBadgeIcon badge="altemulator">./core/badge/${colorSchemeName}/altemulator.png</customBadgeIcon>
-            <customBadgeIcon badge="favorite">./core/badge/${colorSchemeName}/fave.png</customBadgeIcon>
-            <customBadgeIcon badge="completed">./core/badge/${colorSchemeName}/complete.png</customBadgeIcon>
-            <customBadgeIcon badge="controller">./core/badge/${colorSchemeName}/controller.svg</customBadgeIcon>   
+            <customBadgeIcon badge="folder">./core/badge/folder.png</customBadgeIcon>
+            <customBadgeIcon badge="broken">./core/badge/broken.png</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./core/badge/kid.png</customBadgeIcon>
+            <customBadgeIcon badge="collection">./core/badge/collection.png</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./core/badge/altemulator.png</customBadgeIcon>
+            <customBadgeIcon badge="favorite">./core/badge/fave.png</customBadgeIcon>
+            <customBadgeIcon badge="completed">./core/badge/complete.png</customBadgeIcon>
+            <customBadgeIcon badge="controller">./core/badge/controller.svg</customBadgeIcon>   
     
         </badges> 
     </view>
@@ -759,9 +763,10 @@
             <direction>column</direction>
             <lines>2</lines>
             <itemsPerLine>2</itemsPerLine>
-            <customBadgeIcon badge="altemulator">./core/badge/${colorSchemeName}/altemulator.png</customBadgeIcon>
-            <customBadgeIcon badge="favorite">./core/badge/${colorSchemeName}/fave.png</customBadgeIcon>
-            <customBadgeIcon badge="completed">./core/badge/${colorSchemeName}/complete.png</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./core/badge/altemulator.png</customBadgeIcon>
+            <customBadgeIcon badge="favorite">./core/badge/fave.png</customBadgeIcon>
+            <customBadgeIcon badge="completed">./core/badge/complete.png</customBadgeIcon>
+            <badgeIconColor>${boxColor}</badgeIconColor>
             <slots>completed, favorite</slots>
         </badges>
         <badges name="altemu">
@@ -772,7 +777,8 @@
             <lines>1</lines>
             <itemsPerLine>1</itemsPerLine>
             <slots>altemulator</slots>
-            <customBadgeIcon badge="altemulator">./core/badge/${colorSchemeName}/altemulator.png</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./core/badge/altemulator.png</customBadgeIcon>
+            <badgeIconColor>${boxColor}</badgeIconColor>
             
         </badges>
         <badges name="leftovers">
@@ -782,11 +788,13 @@
             <direction>row</direction>
             <lines>1</lines>
             <itemsPerLine>4</itemsPerLine>
-            <slots>broken, kidgame, collection, folder</slots>
-            <customBadgeIcon badge="folder">./core/badge/${colorSchemeName}/folder.png</customBadgeIcon>
-            <customBadgeIcon badge="broken">./core/badge/${colorSchemeName}/broken.png</customBadgeIcon>
-            <customBadgeIcon badge="kidgame">./core/badge/${colorSchemeName}/kid.png</customBadgeIcon>
-            <customBadgeIcon badge="collection">./core/badge/${colorSchemeName}/collection.png</customBadgeIcon>
+            <slots>broken, kidgame, collection, folder,manual</slots>
+            <customBadgeIcon badge="folder">./core/badge/folder.png</customBadgeIcon>
+            <customBadgeIcon badge="broken">./core/badge/broken.png</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./core/badge/kid.png</customBadgeIcon>
+            <customBadgeIcon badge="collection">./core/badge/collection.png</customBadgeIcon>
+            <customBadgeIcon badge="manual">./core/badge/manual.png</customBadgeIcon>
+            <badgeIconColor>${boxColor}</badgeIconColor>
             
             <itemMargin>0.000001 0.000001</itemMargin>
         </badges>
@@ -798,19 +806,19 @@
             <lines>1</lines>
             <itemsPerLine>1</itemsPerLine>
             <slots>controller</slots>
-            <customBadgeIcon badge="controller">./core/badge/${colorSchemeName}/controller.svg</customBadgeIcon>   
+            <customBadgeIcon badge="controller">./core/badge/controller.svg</customBadgeIcon>   
             <controllerPos>0.5 0.5</controllerPos>
             <controllerSize>1.25</controllerSize>
         </badges> 
         <badges name="all">
-            <customBadgeIcon badge="folder">./core/badge/${colorSchemeName}/folder.png</customBadgeIcon>
-            <customBadgeIcon badge="broken">./core/badge/${colorSchemeName}/broken.png</customBadgeIcon>
-            <customBadgeIcon badge="kidgame">./core/badge/${colorSchemeName}/kid.png</customBadgeIcon>
-            <customBadgeIcon badge="collection">./core/badge/${colorSchemeName}/collection.png</customBadgeIcon>
-            <customBadgeIcon badge="altemulator">./core/badge/${colorSchemeName}/altemulator.png</customBadgeIcon>
-            <customBadgeIcon badge="favorite">./core/badge/${colorSchemeName}/fave.png</customBadgeIcon>
-            <customBadgeIcon badge="completed">./core/badge/${colorSchemeName}/complete.png</customBadgeIcon>
-            <customBadgeIcon badge="controller">./core/badge/${colorSchemeName}/controller.svg</customBadgeIcon>   
+            <customBadgeIcon badge="folder">./core/badge/folder.png</customBadgeIcon>
+            <customBadgeIcon badge="broken">./core/badge/broken.png</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./core/badge/kid.png</customBadgeIcon>
+            <customBadgeIcon badge="collection">./core/badge/collection.png</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./core/badge/altemulator.png</customBadgeIcon>
+            <customBadgeIcon badge="favorite">./core/badge/fave.png</customBadgeIcon>
+            <customBadgeIcon badge="completed">./core/badge/complete.png</customBadgeIcon>
+            <customBadgeIcon badge="controller">./core/badge/controller.svg</customBadgeIcon>   
     
         </badges> 
     </view>
