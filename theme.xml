@@ -455,7 +455,7 @@
                 <textColor>${syslogoColor}</textColor>
                 <textRelativeScale>0.65</textRelativeScale>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>0.02</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
 			    <zIndex>29</zIndex>
@@ -519,7 +519,7 @@
                 <textColor>${syslogoColor}</textColor>
                 <textRelativeScale>0.65</textRelativeScale>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>0.02</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
             </grid>
