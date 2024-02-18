@@ -10,7 +10,10 @@
         <entry>builtin-fade</entry>
     </suppressTransitionProfiles>
     
-
+    <fontSize>medium</fontSize>
+    <fontSize>large</fontSize>
+    <fontSize>x-large</fontSize>
+    
     <transitions name="instantfade">
         <label>Instant w/Fade</label>
         <selectable>true</selectable>

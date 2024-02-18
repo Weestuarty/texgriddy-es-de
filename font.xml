@@ -1,0 +1,37 @@
+<theme>
+<fontSize name="medium">
+    <variables>
+    <sysgrid>0.18 0.15</sysgrid>
+    <gamegrid>0.18 0.14</gamegrid>
+    <sysgame>0.03</sysgame>
+    
+    <helpsize>0.025</helpsize>
+    <helpgamesize>0.025</helpgamesize>
+    <helppos>0.975 0.9975</helppos>
+    </variables>
+</fontSize>
+
+<fontSize name="large">
+   <variables> 
+    <sysgrid>0.225 0.15</sysgrid>
+    <gamegrid>0.225 0.14</gamegrid>
+    <sysgame>0.0375</sysgame>
+    
+    <helpsize>0.03</helpsize>
+    <helpgamesize>0.026</helpgamesize>
+    <helppos>0.975 0.9975</helppos>
+    </variables>
+</fontSize>
+
+<fontSize name="x-large">
+    <variables>
+    
+        <sysgrid>0.3 0.225</sysgrid>
+        <gamegrid>0.3 0.21</gamegrid>
+        <sysgame>0.045</sysgame>
+        <helpsize>0.035</helpsize>
+        <helpgamesize>0.027</helpgamesize>
+        <helppos>0.975 0.9975</helppos>
+    </variables>
+</fontSize>
+</theme>

@@ -11,6 +11,7 @@
     <include>./system/custom/metadata/_default.xml</include>
     <include>./system/custom/metadata/${system.theme}.xml</include>
     <include>./system/metadata/${system.theme}.xml</include>
+    <include>./font.xml</include>
 
     <variables>
         <primaryFont>./core/fonts/berlin.ttf</primaryFont>
@@ -60,7 +61,7 @@
                 <origin>1 .5</origin>
                 <text>Titles Installed:</text>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>${sysgame}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${textColor}</color>
             </text>    
@@ -70,7 +71,7 @@
                 <origin>0 0.5</origin>
                 <systemdata>gamecountGames</systemdata>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>${sysgame}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${textColor}</color>
                 <zIndex>50</zIndex>
@@ -81,17 +82,17 @@
 			    <fontPath>${primaryFont}</fontPath>
                 <textColor>${helpColor}</textColor>
                 <iconColor>${helpColor}</iconColor>
-                <fontSize>0.025</fontSize>
+                <fontSize>${helpsize}</fontSize>
             </helpsystem>
         </view>
         <view name="gamelist">
             <helpsystem name="help">
-                <pos>0.977 0.94</pos>
-			    <origin>1 0</origin>
+                <pos>${helppos}</pos>
+			    <origin>1 1</origin>
 			    <fontPath>${primaryFont}</fontPath>
                 <textColor>${helpColor}</textColor>
                 <iconColor>${helpColor}</iconColor>
-                <fontSize>0.018</fontSize>
+                <fontSize>${helpgamesize}</fontSize>
             </helpsystem>
                   
             <textlist name="gamelist_grid">
@@ -99,7 +100,7 @@
                 <size>0.315 0.76</size>
                 <origin>0 0</origin>
                 <horizontalMargin>0.015</horizontalMargin>
-                <fontSize>0.025</fontSize>
+                <fontSize>${helpsize}</fontSize>
                 <fontPath>${primaryFont}</fontPath>
                 <selectorColor>${selectedColor}</selectorColor>
                 <selectedColor>${selectedTextColor}</selectedColor>
@@ -144,7 +145,8 @@
             <size>0.6 0.55</size>
             <text>${systemDescription}</text>
             <fontPath>${primaryFont}</fontPath>
-            <fontSize>0.03</fontSize>
+            <fontSize>${sysgame}</fontSize>
+            <container>true</container>
             <horizontalAlignment>left</horizontalAlignment>
             <color>${textColor}</color>
         </text>
@@ -238,7 +240,7 @@
             <containerResetDelay>7</containerResetDelay>
             <metadata>description</metadata>
             <fontPath>${primaryFont}</fontPath>
-            <fontSize>0.027</fontSize>
+            <fontSize>${helpsize}</fontSize>
             <color>${textColor}</color>
             <lineSpacing>1</lineSpacing>
         </text>
@@ -440,7 +442,7 @@
                 <staticImage>${syslogo}</staticImage>
                 <defaultImage>${syslogocustom}</defaultImage>
                 <imageColor>${syslogoColor}</imageColor>
-                <itemSize>0.18 0.15</itemSize>
+                <itemSize>${sysgrid}</itemSize>
                 <itemSpacing>0 0</itemSpacing>
                 <imageRelativeScale>0.65</imageRelativeScale>
                 <itemScale>1</itemScale>
@@ -466,7 +468,7 @@
                 <origin>1 .5</origin>
                 <text>Titles Installed:</text>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>${sysgame}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${textColor}</color>
             </text>
@@ -476,7 +478,7 @@
                 <origin>0 0.5</origin>
                 <systemdata>gamecountGames</systemdata>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>${sysgame}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${textColor}</color>
                 <zIndex>50</zIndex>
@@ -487,17 +489,17 @@
 			    <fontPath>${primaryFont}</fontPath>
                 <textColor>${helpColor}</textColor>
                 <iconColor>${helpColor}</iconColor>
-                <fontSize>0.025</fontSize>
+                <fontSize>${helpsize}</fontSize>
             </helpsystem>
         </view>
         <view name="gamelist">
             <helpsystem name="help">
-                <pos>0.95 0.9425</pos>
-			    <origin>1 0</origin>
+                <pos>${helppos}</pos>
+			    <origin>1 1</origin>
 			    <fontPath>${primaryFont}</fontPath>
                 <textColor>${helpColor}</textColor>
                 <iconColor>${helpColor}</iconColor>
-                <fontSize>0.02</fontSize>
+                <fontSize>${helpgamesize}</fontSize>
             </helpsystem>
         </view>
         <view name="gamelist">
@@ -505,7 +507,7 @@
                 <pos>0.5 0.51</pos>
                 <size>0.94 0.46</size>
                 <origin>0.5 0</origin>
-                <itemSize>0.18 0.14</itemSize>
+                <itemSize>${gamegrid}</itemSize>
                 <imageType>marquee</imageType>
                 <imageFit>contain</imageFit>
                 <imageRelativeScale>0.65</imageRelativeScale>
@@ -558,7 +560,7 @@
             <size>0.6 0.35</size>
             <text>${systemDescription}</text>
             <fontPath>${primaryFont}</fontPath>
-            <fontSize>0.03</fontSize>
+            <fontSize>${sysgame}</fontSize>
             <container>true</container>
             <horizontalAlignment>left</horizontalAlignment>
             <color>${textColor}</color>
@@ -652,7 +654,7 @@
             <containerResetDelay>7</containerResetDelay>
             <metadata>description</metadata>
             <fontPath>${primaryFont}</fontPath>
-            <fontSize>0.027</fontSize>
+            <fontSize>${helpsize}</fontSize>
             <color>${textColor}</color>
             <lineSpacing>1</lineSpacing>
         </text>
